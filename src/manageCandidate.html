@@ -40,7 +40,7 @@
 <div class="top_navbar">
 
 <!-- logo -->
-    <div class="logo">Admin Voting</div>
+    <div class="logo">Manage Candidates</div>
 <!-- menu button -->
    <div class="menu">
      <div class="hamburger">
@@ -104,23 +104,58 @@
 
 </div>
 </div>
+<br>
+<br>
+<br>
+<br>
 
 <!-- Page Content -->
-<div style="margin-left:25%">
+<table>
+    <tr>
+        <td>
+            <form autocomplete="off" onsubmit="onFormSubmit()">
+                <div>
+                    <label for="productCode">First Name</label>
+                    <input type="text" name="productCode" id="productCode">
+                </div>
+                <div>
+                    <label for="product">Last Name</label>
+                    <input type="text" name="product" id="product">
+                </div>
+                <div>
+                    <label for="qty">Qty</label>
+                    <input type="number" name="qty" id="qty">
+                </div>
+                <div>
+                    <label for="perPrice">Price</label>
+                    <input type="number" name="perPrice" id="perPrice">
+                </div>
 
-  <div class="w3-container w3-teal">
-    <h1>My Page</h1>
-  </div>
-  
-  <img src="img_car.jpg" alt="Car" style="width:100%">
-  
-  <div class="w3-container">
-  <h2>Sidebar Navigation Example</h2>
-  <p>The sidebar with is set with "style="width:25%".</p>
-  <p>The left margin of the page content is set to the same value.</p>
-  </div>
-  
-  </div>
+                <div class="form_action--button">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+
+            <td>
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>Product Code</th>
+                            <th>Product Name</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" src="manageCandidate.js"></script>
 
 <!-- Now activate menu button using Javascript -->
 <script type="text/javascript">

@@ -136,74 +136,34 @@ body {
 }
 
 body{
-  background-image: url('background.jpg');
+  background-image: url('360_F_389618887_PImTbyGB4vTQOoGKxjhOKp2w7hZmcNAs.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-table{
-  width: 80%;
-  margin: 40px auto;
-  background: rgb(124,154,167);
-}
 
-table.list{
-  text-align: center;
-  width: 100%;
+fieldset{
+  border: 1px solid rgb(255,232,57);
+  width: 900px;
+  margin:auto;
+  text-decoration-color: white;
 }
 
 td{
-  border: 1px solid rgb(204,200,200);
-  text-align: left;
-  padding: 8px 15px;
+  color: white;
+  font-size: 18px 
 }
 
-tr:nth-child(even), table.list thread> tr{
-  background-color: rgb(204,200,200);
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
 }
 
-input[type="text"],input[type="number"]{
-  width:91%;
-  padding:12px 20px;
-  margin:8px 0;
-  display: inline-block;
-  border: 1px solid rgb(165,161,161);
-  border-radius: 4px;
+input {
+  margin: 5px;
 }
 
-input[type="submit"],input[type="reset"]{
-  background: #eee;
-  padding:6px 12px;
-  margin:15px 0 10px;
-  display: inline-block;
-  border: none;
-  border-radius: 30px;
-  font-size: 1rem;
-  cursor: pointer;
-  outline: none;
-}
 
-input[type="submit"]:hover{
-  background: #4b99d8;
-}
-
-input[type="reset"]:hover{
-  background: #4b99d8;
-}
-
-button{
-  background: #eee;
-  padding:6px 12px;
-  margin:15px 0 10px;
-  display: inline-block;
-  border: none;
-  border-radius: 30px;
-  font-size: 1rem;
-  cursor: pointer;
-  outline: none;
-}
-
-button:hover{
-  background:#4b99d8 ;
-}
