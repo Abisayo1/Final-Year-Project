@@ -29,6 +29,43 @@
             width : 40%;
             float: right;
         }
+
+        .styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
     </style>
 
 
@@ -39,7 +76,7 @@
 <div class="top_navbar">
 
 <!-- logo -->
-    <div class="logo">Administrators</div>
+    <div class="logo">Poll Results</div>
 <!-- menu button -->
    <div class="menu">
      <div class="hamburger">
@@ -104,88 +141,97 @@
 </div>
 </div>
 
+<br>
+<br>
+<br>
+<br>
 
-<style>
+<h2 style="text-align:center">President</h2>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dom</td>
+            <td>6000</td>
+        </tr>
+        <tr class="active-row">
+            <td>Melissa</td>
+            <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
 
-  
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
+<h2 style="text-align:center">  Vice President</h2>
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dom</td>
+            <td>6000</td>
+        </tr>
+        <tr class="active-row">
+            <td>Melissa</td>
+            <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
 
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
+<h2 style="text-align:center">Secretary</h2>
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dom</td>
+            <td>6000</td>
+        </tr>
+        <tr class="active-row">
+            <td>Melissa</td>
+            <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
 
-button:hover, a:hover {
-  opacity: 0.7;
-}
-</style>
-</head>
-<body>
+<h2 style="text-align:center">Treasurer</h2>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
-<h2 style="text-align:center">Evote Admins</h2>
-
-
-<div class="test">
-<div class="card">
-  <img src="download.jpeg" alt="John" style="width:100%">
-  <h1>Ogunnupe Bassit</h1>
-  <p class="title">CEO & Co-Founder, Evote</p>
-  <p>Harvard University</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-  <p><button>Contact</button></p>
-</div>
-
-<div class="card">
-    <img src="download.jpeg" alt="John" style="width:100%">
-    <h1>Frederick Allen </h1>
-    <p class="title">CEO & Co-Founder, Evote</p>
-    <p>Harvard University</p>
-    <div style="margin: 24px 0;">
-      <a href="#"><i class="fa fa-dribbble"></i></a> 
-      <a href="#"><i class="fa fa-twitter"></i></a>  
-      <a href="#"><i class="fa fa-linkedin"></i></a>  
-      <a href="#"><i class="fa fa-facebook"></i></a> 
-    </div>
-    <p><button>Contact</button></p>
-  </div>
-
-</div>
-
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dom</td>
+            <td>6000</td>
+        </tr>
+        <tr class="active-row">
+            <td>Melissa</td>
+            <td>5150</td>
+        </tr>
+        <!-- and so on... -->
+    </tbody>
+</table>
 
 <!-- Now activate menu button using Javascript -->
 <script type="text/javascript">
