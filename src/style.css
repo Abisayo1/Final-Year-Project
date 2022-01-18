@@ -1,4 +1,4 @@
-@@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600&display=swap');
 
 *{
   font-family: 'Baloo Paaji 2', cursive;
@@ -136,7 +136,7 @@ body {
 }
 
 body{
-  background-image: url('background.jpg');
+  background-image: url('pngtree-gray-minimalistic-texture-background-image_557020.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -206,4 +206,45 @@ button{
 
 button:hover{
   background:#4b99d8 ;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  padding: 2px;
+  margin: 8px 0;
+  /*   line-height: 20px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important; */
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container {
+  padding: 2px 14px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h4 {
+  margin-top: auto;
+}
+
+.card p {
+  margin: 14px 0;
 }

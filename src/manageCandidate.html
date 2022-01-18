@@ -40,7 +40,7 @@
 <div class="top_navbar">
 
 <!-- logo -->
-    <div class="logo">Manage Candidates</div>
+    <div class="logo">Candidates</div>
 <!-- menu button -->
    <div class="menu">
      <div class="hamburger">
@@ -62,9 +62,9 @@
     </a>
     </li> -->
       <li>
-      <a href="#">
+      <a href="viewAdmin.html">
     <span class="icon"><i class="fas fa-user-tie"></i></span>
-    <span class="text">Manage Administrators</span>
+    <span class="text">View Administrators</span>
       </a>
       </li>
 
@@ -81,14 +81,14 @@
     <span class="text">Check Poll Results</span>
       </a>
       </li>
-      <li>
+      <!-- <li>
       <a href="#">
     <span class="icon"><i class="fa fa-key"></i></span>
     <span class="text">Update Password</span>
       </a>
-      </li>
+      </li> -->
       <li>
-      <a href="#">
+      <a href="updateProfile.html">
     <span class="icon"><i class="fas fa-user-edit"></i></span>
     <span class="text">Update Profile</span>
       </a>
@@ -123,13 +123,13 @@
                     <input type="text" name="product" id="product">
                 </div>
                 <div>
-                    <label for="qty">Qty</label>
-                    <input type="number" name="qty" id="qty">
+                    <label for="qty">Position</label>
+                    <input type="text" name="qty" id="qty">
                 </div>
-                <div>
+                <!-- <div>
                     <label for="perPrice">Price</label>
                     <input type="number" name="perPrice" id="perPrice">
-                </div>
+                </div> -->
 
                 <div class="form_action--button">
                     <input type="submit" value="Submit">
@@ -141,10 +141,9 @@
                 <table class="list" id="storeList">
                     <thead>
                         <tr>
-                            <th>Product Code</th>
-                            <th>Product Name</th>
-                            <th>Qty</th>
-                            <th>Price</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Position</th>                    
                         </tr>
                     </thead>
                     <tbody>

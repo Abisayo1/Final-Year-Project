@@ -80,7 +80,7 @@ body {
  vertical-align: middle;
 }
 
-.sidebar ul li a .text{
+.sidebar ul li a .texxt{
  margin-left: 19px;
  color: #fff;
  font-family: sans-serif;
@@ -96,7 +96,7 @@ body {
  width: 70px;
 }
 
-.hover_collapse .sidebar ul li a .text{
+.hover_collapse .sidebar ul li a .texxt{
  display: none;
 }
 
@@ -133,4 +133,76 @@ body {
     float: none;
     display: block;
   }
+}
+
+body{
+
+  background-repeat: no-repeat;
+  background-color: #1c2833;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table{
+  width: 80%;
+  margin: 40px auto;
+  background: rgb(124,154,167);
+}
+
+table.list{
+  text-align: center;
+  width: 100%;
+}
+
+td{
+  border: 1px solid rgb(204,200,200);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+  background-color: rgb(204,200,200);
+}
+
+
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  padding: 2px;
+  margin: 8px 0;
+  /*   line-height: 20px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important; */
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container {
+  padding: 2px 14px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h4 {
+  margin-top: auto;
+}
+
+.card p {
+  margin: 14px 0;
 }
