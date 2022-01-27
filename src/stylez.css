@@ -161,11 +161,13 @@ table{
   width: 80%;
   margin: 40px auto;
   background: rgb(124,154,167);
+  ;
 }
 
 table.list{
   text-align: center;
   width: 100%;
+  background-color: white;
 }
 
 td{

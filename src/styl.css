@@ -148,7 +148,7 @@ body {
 }
 
 body{
-  background-image: url('360_F_389618887_PImTbyGB4vTQOoGKxjhOKp2w7hZmcNAs.jpg');
+  background-image: url(use1.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -156,15 +156,17 @@ body{
 
 
 fieldset{
-  border: 1px solid rgb(255,232,57);
+  border: 1px solid rgb(1,123,206);
   width: 900px;
   margin:auto;
   text-decoration-color: white;
 }
 
 td{
-  color: white;
-  font-size: 18px 
+  color: black;
+  font-size: 18px;
+  font-family:  Sans-serif; 
+
 }
 
 
