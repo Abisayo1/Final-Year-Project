@@ -150,7 +150,7 @@ body {
 body{
 
   background-repeat: no-repeat;
-  background-color: #1c2833;
+  background-image: url("use1.jpeg");
   background-attachment: fixed;
   background-size: cover;
 }

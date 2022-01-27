@@ -151,10 +151,27 @@ body {
 }
 
 body{
-  background-image: url('WhatsApp\ Image\ 2022-01-21\ at\ 1.56.49\ PM.jpeg');
+  background-image: url('use1.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+table{
+  width: 80%;
+  margin: 40px auto;
+  background: rgb(124,154,167);
+}
+
+table.list{
+  text-align: center;
+  width: 100%;
+}
+
+td{
+  border: 1px solid rgb(204,200,200);
+  text-align: left;
+  padding: 8px 15px;
 }
 
 
@@ -201,44 +218,4 @@ button{
 
 button:hover{
   background:#4b99d8 ;
-}
-
-
-
-.containers {
-  display: flex;
-  align-items: center;
-  margin-left: -300px;
-  justify-content: center;
-  
-  
-}
-
-img {
-  width: 200px;
-  height: 200px;
-  margin-left: 500px;
-}
-
-.images {
-  flex-basis: 40%
-  
-  
-
-}
-
-.texts {
-  font-size: 20px;
-  color: #f5f5f5;
-  margin-left: 10px;
-  font: italic 10px "Fira Sans", serif;
-}
-
-.test {
-  display: flex;
-  flex-direction: row;
-  margin-left: 50px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  
 }
