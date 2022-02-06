@@ -148,7 +148,7 @@ body {
 }
 
 body{
-  background-image: url(use1.jpeg);
+  background-image: url(pic20.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -156,14 +156,14 @@ body{
 
 
 fieldset{
-  border: 1px solid rgb(1,123,206);
+  border: 1px solid rgb(1,123,206, 0.0);
   width: 900px;
   margin:auto;
   text-decoration-color: white;
 }
 
 td{
-  color: black;
+  color: #ae5d2f;
   font-size: 18px;
   font-family:  Sans-serif; 
 

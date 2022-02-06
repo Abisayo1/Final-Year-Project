@@ -187,57 +187,57 @@
     <br>
 
     <fieldset>
-        <legend>
+        <legend style = "padding-left: 20px;">
             ONLINE ELECTION SYSTEM
         </legend>
         <table>
             <tr>
 
 
-                <td>First name</td>
+              <td style = "padding-left: 20px;">First name</td>
                 <td><input type = "text" placeholder = "FIRST NAME"></td>
 
                 
-                <td>Last name</td>
+                <td style = "padding-left: 20px;">Last name</td>
                 <td><input type = "text" placeholder = "LAST NAME"></td>
             </tr>
 
             <tr>
-                <td>Department</td>
+              <td style = "padding-left: 20px;">Department</td>
                 <td><input type = "text"></td>
 
             </tr>
 
             
             <tr>
-                <td>Matric no</td>
+              <td style = "padding-left: 20px;">Matric no</td>
                 <td><input type = "text"></td>
             </tr>
 
             <tr>
 
-                <td style = "color:rgb(1,123,206)">
+                <td style = "color:rgb(1,123,206); padding-left: 20px;">
                     <b>FOR PRESIDENT: </b>
                 </td>
             </tr>
 
             <tr>
 
-                <td>Candidate Name</td>
+                <td style = "padding-left: 20px;">Candidate Name</td>
                 <td><select id="mySelect">
                     <option>selected</option>
                            
                 </tr>
 
 
-                <td style = "color:rgb(1,123,206)">
+                <td style = "color:rgb(1,123,206); padding-left: 20px;; padding-left: 20px;">
                     <b>FOR VICE PRESIDENT: </b>
                 </td>
             </tr>
 
             <tr>
 
-                <td>Candidate Name</td>
+                <td style = "padding-left: 20px;">Candidate Name</td>
                 <td><select id="mySelect1">
                     <option>selected</option>
 
@@ -245,28 +245,28 @@
                 </tr>
 
                 
-                <td style = "color:rgb(1,123,206)">
+                <td style = "color:rgb(1,123,206); padding-left: 20px;">
                     <b>FOR GENERAL SECRETARY: </b>
                 </td>
             </tr>
 
             <tr>
 
-                <td>Candidate Name</td>
+                <td style = "padding-left: 20px;">Candidate Name</td>
                 <td><select id="mySelect1">
                     <option>selected</option>
 
                 
                 </tr>
 
-                <td style = "color:rgb(1,123,206)">
+                <td style = "color:rgb(1,123,206); padding-left: 20px;">
                     <b>TREASURER: </b>
                 </td>
             </tr>
 
             <tr>
 
-                <td>Candidate Name</td>
+                <td style = "padding-left: 20px;">Candidate Name</td>
                 <td><select id="mySelect1">
                     <option>selected</option>
 
@@ -287,24 +287,7 @@
         </table>
     </fieldset>
 
-    <button style="margin-left: 200px;" class="open-button" onclick="openForm()">Manage Positions</button>
-
-    <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Manage Positions</h1>
-      
-          <label for="position"><b>Position</b></label>
-          <input type="text" placeholder="Enter Position" name="position" required>
-      
-        
-      
-          <button type="submit" class="btn">Create</button>
-          <button style="background-color: rgb(79, 42, 165);" type="submit" class="btn">Update</button>
-          <button style="background-color: brown;" type="submit" class="btn">Delete</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-      </div>
-
+    
     <!-- Now activate menu button using Javascript -->
 <script type="text/javascript">
     var li_items = document.querySelectorAll(".sidebar ul li");

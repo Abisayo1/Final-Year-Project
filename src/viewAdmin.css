@@ -15,7 +15,7 @@ body{
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
-  background: linear-gradient(45deg, #0f00e0, #ae31d9);
+  background: linear-gradient(45deg, #1f5eab, #1f5eab);
 }
 .container:hover{
   height: 470px;
@@ -112,7 +112,7 @@ body{
   transition-delay: 0.4s;
 }
 .container .icons li a{
-  color: #7b00e0;
+  color: #1f5eab;
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -128,8 +128,8 @@ body{
 .test {
   display: flex;
   flex-direction: row;
-  margin-left: 200px;
   margin-right: 200px;
+  padding-left: 200px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
