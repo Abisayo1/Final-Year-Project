@@ -129,5 +129,136 @@ body {
     text-decoration: underline;
 }
 
+#wrapper {
+    border: 1px;
+    display:inline-block
+}
+#static {
+    width:90px;
+    background: white;
+    color: black;
+}
 
+input {
+    border: none;
+    outline: 0 none;
+}
 
+#txt {
+    border:none;
+    outline:none;
+}
+label[for="txt"] {
+    border:solid 1px #d5d5d5;
+    padding: 0 0 0 5px;
+}
+
+.field1 {
+    float:left;
+    display: block;
+    width: 100px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+ }
+
+ .field2 {
+    float:right;
+    display: block;
+    width: 20%;
+    margin-top: -10.3%;
+    margin-right: 44%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    
+ }
+
+ .field2:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.field1:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.field {
+    display: block;
+    width: 44px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    
+ }
+
+ .field3 {
+    float:right;
+    display: block;
+    width: 44px;
+    margin-top: -10.3%;
+    margin-right: 140px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    
+ }
+
+ .field4 {
+    float:right;
+    display: block;
+    width: 20%;
+    margin-top: -10.3%;
+    margin-right: 14.9%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    
+ }
+
+ .field4:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.field5 {
+    float:right;
+    display: block;
+    width: 20%;
+    margin-top: -10.3%;
+    margin-right: 24%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    
+ }
+
+ .field5:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}

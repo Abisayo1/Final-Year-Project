@@ -12,7 +12,21 @@
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
-                <input type="number" class="form__input" autofocus placeholder="Matric Number">
+                <input type="number" class="field1" id="signupUsername" class="form__input" autofocus placeholder= "LCU/UG/" disabled>
+                <input type="number" class="field" id="signupUsername" class="form__input" autofocus placeholder= "/" disabled>
+                <input id="signupUsername" class="field2" class="form__input" autofocus placeholder="00" name="somename"
+           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+           type = "number"
+           maxlength = "2">
+
+        
+           <input id="signupUsername" class="field4" class="form__input" autofocus placeholder="00000" name="somename"
+           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+           type = "number"
+           maxlength = "5"           
+
+ />
+            <input type="number" class="field3" id="signupUsername" class="form__input" autofocus placeholder= "/" disabled>
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
@@ -34,11 +48,35 @@
             <h1 class="form__title">Create Account</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
-                <input type="number" id="signupUsername" class="form__input" autofocus placeholder="Matric Number">
+                <input type="number" class="field1" id="signupUsername" class="form__input" autofocus placeholder= "LCU/UG/" disabled>
+                <input type="number" class="field" id="signupUsername" class="form__input" autofocus placeholder= "/" disabled>
+                <input id="signupUsername" class="field2" class="form__input" autofocus placeholder="00" name="somename"
+           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+           type = "number"
+           maxlength = "2">
+
+        
+           <input id="signupUsername" class="field4" class="form__input" autofocus placeholder="00000" name="somename"
+           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+           type = "number"
+           maxlength = "5"           
+
+ />
+            <input type="number" class="field3" id="signupUsername" class="form__input" autofocus placeholder= "/" disabled>
+                <!-- <input type="integer" id="signupUsername" class="form__input" autofocus placeholder="Matric Number"> -->
+                <div class="form__input-error-message"></div>
+            </div>
+
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="First Name">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Email Address">
+                <input type="text" class="form__input" autofocus placeholder="Last Name">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="email" class="form__input" autofocus placeholder="Email Address">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
@@ -56,4 +94,5 @@
         </form>
     </div>
     <script src="main.js"></script>
+    
 </body>
